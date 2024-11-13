@@ -1,10 +1,15 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { InicioComponent } from './pages/inicio/inicio.component';
 
-const routes: Routes = [];
+const routes: Routes = [ 
+  { path: 'inicio', component: InicioComponent},
+  { path: '**', pathMatch:'full', redirectTo: 'inicio'}
+  
+  ]
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules }),],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
