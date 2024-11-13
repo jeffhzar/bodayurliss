@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Cathalia';
+    src: url('../src/assets/font/Cathalia.ttf') format("opentype"); 
+  } 
+  @font-face {
+    font-family: 'Garet';
+    src: url('../src/assets/font/Garet-Book.otf') format("opentype"); 
+  } 

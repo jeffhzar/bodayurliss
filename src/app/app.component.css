@@ -1,0 +1,76 @@
+h2{
+    font-family: 'Cathalia';
+    text-align: center; 
+    font-size: 28px;
+}
+h3{
+    font-family: 'Cathalia';
+    font-size:20px;
+}
+h5{
+    font-family: 'Cathalia';
+    font-size: 18px;
+}
+p{
+    font-family: 'Garet';
+    font-size: 10px;
+}
+.center{
+    text-align: center;
+}
+.cursiva{
+    font-style: italic;
+}
+.number{
+    font-size: 24px !important;
+    font-weight: 600;
+}
+.dateText{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: -8px
+} .yearText{
+    font-size: 12px;
+    font-weight: 500; 
+} 
+.dorado{
+    background: rgb(151,106,41);
+    background: -moz-linear-gradient(90deg, rgba(151,106,41,1) 0%, rgba(235,186,73,1) 38%, rgba(223,176,69,1) 67%, rgba(113,83,36,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(151,106,41,1) 0%, rgba(235,186,73,1) 38%, rgba(223,176,69,1) 67%, rgba(113,83,36,1) 100%);
+    background: linear-gradient(90deg, rgba(151,106,41,1) 0%, rgba(235,186,73,1) 38%, rgba(223,176,69,1) 67%, rgba(113,83,36,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#976a29",endColorstr="#715324",GradientType=1);
+}
+.doradoC{
+    background: linear-gradient(90deg, rgba(151,106,41,1) 0%, rgba(235,186,73,1) 38%, rgba(223,176,69,1) 67%, rgba(113,83,36,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+.doradoN{
+    background: linear-gradient(90deg, rgba(151,106,41,1) 0%,  rgba(223,176,69,1) 67%, rgba(113,83,36,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+.doradoT{
+    background: linear-gradient(306deg, rgba(151,106,41,1) 0%, rgba(235,186,73,1) 30%, rgba(113,83,36,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+.icon-size{
+    max-width: 15%;
+    padding-bottom: 10px;
+}
+.ubicacion{
+    font-size: 10px;
+    background:   linear-gradient(306deg, rgba(151,106,41,1) 0%, rgba(235,186,73,1) 50%, rgba(113,83,36,1) 100%);
+    border-radius: 16px;
+    border-style: none;
+
+}
+.card{
+    border: var(--bs-card-border-width) solid rgb(151,106,41) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#976a29",endColorstr="#715324",GradientType=1);
+
+}
+.conf{
+    margin-bottom: -7px;
+}
