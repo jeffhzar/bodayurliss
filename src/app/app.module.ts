@@ -7,6 +7,8 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { InicioComponent } from './pages/inicio/inicio.component';
 
+ 
+
 const firebaseConfig = {
   apiKey: "AIzaSyCYPojh0AazpUuUP9pXje7Ppl2cvxotFEM",
   authDomain: "bodayurliss.firebaseapp.com",
@@ -30,7 +32,7 @@ const app = initializeApp(firebaseConfig);
     AngularFirestoreModule
   ],
   providers: [
-    provideClientHydration()
+ 
   ],
   bootstrap: [AppComponent]
 })
