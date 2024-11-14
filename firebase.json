@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "src",
+    "public": "./dist/boda-yur-liss",
     "ignore": [
       "firebase.json",
       "**/.*",

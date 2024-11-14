@@ -1,0 +1,16 @@
+[debug] [2024-11-14T14:29:22.147Z] ----------------------------------------------------------------------
+[debug] [2024-11-14T14:29:22.150Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jhernandez\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js hosting:channel:deploy bodayurliss
+[debug] [2024-11-14T14:29:22.150Z] CLI Version:   13.25.0
+[debug] [2024-11-14T14:29:22.150Z] Platform:      win32
+[debug] [2024-11-14T14:29:22.150Z] Node Version:  v20.16.0
+[debug] [2024-11-14T14:29:22.150Z] Time:          Thu Nov 14 2024 08:29:22 GMT-0600 (Central Standard Time)
+[debug] [2024-11-14T14:29:22.151Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-14T14:29:22.233Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-14T14:29:22.234Z] > authorizing via signed-in user (jeffryha@gmail.com)
+[debug] [2024-11-14T14:29:22.234Z] [iam] checking project bodayurliss for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-11-14T14:29:22.235Z] Checked if tokens are valid: false, expires at: 1731545402945
+[debug] [2024-11-14T14:29:22.235Z] Checked if tokens are valid: false, expires at: 1731545402945
+[debug] [2024-11-14T14:29:22.236Z] > refreshing access token with scopes: []
+[debug] [2024-11-14T14:29:22.237Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-11-14T14:29:22.237Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
