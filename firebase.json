@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "./dist/boda-yur-liss",
+    "public": "./dist/inicio",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -9,7 +9,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "destination": "/inicio/inicio"
       }
     ]
   }
