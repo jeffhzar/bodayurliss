@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { InicioComponent } from './pages/inicio/inicio.component';
+import { ModalComponent } from './pages/modal/modal.component';
 
  
 
@@ -23,7 +24,8 @@ const app = initializeApp(firebaseConfig);
 @NgModule({
   declarations: [
     AppComponent,
-    InicioComponent
+    InicioComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
