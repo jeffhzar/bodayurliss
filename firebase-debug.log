@@ -16,3 +16,40 @@
 [debug] [2024-11-18T15:16:32.646Z] Checked if tokens are valid: true, expires at: 1731945177194
 [debug] [2024-11-18T15:16:32.646Z] Checked if tokens are valid: true, expires at: 1731945177194
 [debug] [2024-11-18T15:16:32.647Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/bodayurliss/sites 
+[debug] [2024-11-18T15:16:33.582Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/bodayurliss/sites 200
+[debug] [2024-11-18T15:16:33.582Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/bodayurliss/sites {"sites":[{"name":"projects/bodayurliss/sites/bodayurliss","defaultUrl":"https://bodayurliss.web.app","appId":"1:1064151455569:web:f8f95326b8816b856f2570","type":"DEFAULT_SITE"}]}
+[debug] [2024-11-18T15:16:33.582Z] Checked if tokens are valid: true, expires at: 1731945177194
+[debug] [2024-11-18T15:16:33.582Z] Checked if tokens are valid: true, expires at: 1731945177194
+[debug] [2024-11-18T15:16:33.583Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bodayurliss/webApps/1:1064151455569:web:f8f95326b8816b856f2570/config [none]
+[debug] [2024-11-18T15:16:34.318Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bodayurliss/webApps/1:1064151455569:web:f8f95326b8816b856f2570/config 200
+[debug] [2024-11-18T15:16:34.318Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bodayurliss/webApps/1:1064151455569:web:f8f95326b8816b856f2570/config {"projectId":"bodayurliss","appId":"1:1064151455569:web:f8f95326b8816b856f2570","storageBucket":"bodayurliss.firebasestorage.app","apiKey":"AIzaSyCYPojh0AazpUuUP9pXje7Ppl2cvxotFEM","authDomain":"bodayurliss.firebaseapp.com","messagingSenderId":"1064151455569"}
+[debug] [2024-11-18T15:16:34.324Z] Checked if tokens are valid: true, expires at: 1731945177194
+[debug] [2024-11-18T15:16:34.324Z] Checked if tokens are valid: true, expires at: 1731945177194
+[debug] [2024-11-18T15:16:34.324Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bodayurliss [none]
+[debug] [2024-11-18T15:16:34.566Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bodayurliss 200
+[debug] [2024-11-18T15:16:34.566Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bodayurliss {"projectId":"bodayurliss","projectNumber":"1064151455569","displayName":"BodaYurLiss","name":"projects/bodayurliss","resources":{"hostingSite":"bodayurliss"},"state":"ACTIVE","etag":"1_29a85d19-b20c-4917-97ec-1fa1d7be086c"}
+[info] i  hosting[bodayurliss]: Serving hosting files from: ./dist/boda-yur-liss/browser {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1m./dist/boda-yur-liss/browser\u001b[22m"}}
+[info] +  hosting[bodayurliss]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2024-11-18T15:16:34.591Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [18/Nov/2024:15:17:05 +0000] "GET /inicio/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [18/Nov/2024:15:17:05 +0000] \"GET /inicio/ HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [18/Nov/2024:15:17:05 +0000] "GET /main-TMD4MO6C.js HTTP/1.1" 200 - "http://127.0.0.1:5000/inicio/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [18/Nov/2024:15:17:05 +0000] \"GET /main-TMD4MO6C.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/inicio/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [18/Nov/2024:15:17:05 +0000] "GET /inicio/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [18/Nov/2024:15:17:05 +0000] \"GET /inicio/ HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [18/Nov/2024:15:17:05 +0000] "GET /inicio/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [18/Nov/2024:15:17:05 +0000] \"GET /inicio/ HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [18/Nov/2024:15:17:05 +0000] "GET /inicio/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [18/Nov/2024:15:17:05 +0000] \"GET /inicio/ HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [18/Nov/2024:15:17:05 +0000] "GET /inicio/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [18/Nov/2024:15:17:05 +0000] \"GET /inicio/ HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\""}}
