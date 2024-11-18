@@ -82,7 +82,7 @@
         <p>Hora: 6:00 PM</p> 
       </div>
       <div class="center pb-2" >
-        <button class="btn btn-primary ubicacion">Ir a ubicación</button>
+        <button (click)="ubicacion()" class="btn btn-primary ubicacion">Ir a ubicación</button>
       </div>
     </div>
   </div>
@@ -136,10 +136,16 @@
       </div>
     </div>
   </div>
-  <div class="center pb-2" >
-    <button class="btn btn-primary ubicacion">Confirma Aqui</button>
+  <div class="row p-2">
+    <div class="center pb-2 col-6" >
+      <button (click)="confirmaNovio()" class="btn btn-primary ubicacion">Confirma al Novio</button>
+    </div>
+    <div class="center pb-2 col-6" >
+      <button (click)="confirmaNovia()" class="btn btn-primary ubicacion">Confirma a la Novia</button>
+    </div>
   </div>
-</div>
+  </div>
+ 
 <div class="container-fluid pt-4 pb-4">
   <div class="row">
     <div class="col">
