@@ -1,0 +1,18 @@
+[debug] [2024-11-18T15:16:32.502Z] ----------------------------------------------------------------------
+[debug] [2024-11-18T15:16:32.505Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jhernandez\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-11-18T15:16:32.505Z] CLI Version:   13.25.0
+[debug] [2024-11-18T15:16:32.505Z] Platform:      win32
+[debug] [2024-11-18T15:16:32.505Z] Node Version:  v20.16.0
+[debug] [2024-11-18T15:16:32.505Z] Time:          Mon Nov 18 2024 09:16:32 GMT-0600 (Central Standard Time)
+[debug] [2024-11-18T15:16:32.506Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-18T15:16:32.608Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-18T15:16:32.608Z] > authorizing via signed-in user (jeffryha@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2024-11-18T15:16:32.620Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-18T15:16:32.621Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-18T15:16:32.621Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-11-18T15:16:32.626Z] [hub] writing locator at C:\Users\JHERNA~1\AppData\Local\Temp\hub-bodayurliss.json
+[debug] [2024-11-18T15:16:32.646Z] Checked if tokens are valid: true, expires at: 1731945177194
+[debug] [2024-11-18T15:16:32.646Z] Checked if tokens are valid: true, expires at: 1731945177194
+[debug] [2024-11-18T15:16:32.647Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/bodayurliss/sites 
