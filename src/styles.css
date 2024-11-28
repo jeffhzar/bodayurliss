@@ -7,4 +7,10 @@
     font-family: 'Garet';
     src: url('../src/assets/font/Garet-Book.otf') format("opentype"); 
   } 
-  
+  @media (prefers-color-scheme: dark) {
+    /* Desactivar cualquier estilo específico del modo oscuro */
+    body {
+      background-color: #fff !important;  /* Fondo blanco */
+      color: #000 !important;  /* Texto negro */
+    }
+  }
